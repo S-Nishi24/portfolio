@@ -11,29 +11,31 @@ Next.js と Supabase を用いた「旅行支出管理・天気確認アプリ�
 
 
 ## サイトURL
+https://travel-budget-weather-app.vercel.app
 
-デプロイした後のアプリのメインページURLを貼りましょう。  
-
-「画面中部のゲストログインボタンから、メールアドレスとパスワードを入力せずにログインできます。」といった仕様を作れれば、面接官も試しやすいと思います。
+未ログインの場合、ログイン画面へ遷移します。
 
 ## 使用技術
-
+- フロントエンド：Next.js 14.2.25
+- バックエンド：Next.js 14.2.25
+- データベース：Supabase
+- デプロイ：Vercel
+- バージョン管理：Git、GitHub
 
 ## 設計ドキュメント
 [要件定義・基本設計・詳細設計の一覧_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1fbeRh_2ujOQCMXdwZ9QOzGdv37wXA8YMw5U5GZdgjXQ/edit?usp=sharing)
 
-詳細設計時のワイヤーフレーム、ER図、ワークフロー図の画像はdocsディレクトリに格納しています。
-
-※[]の中に表示文を書き、その後ろで()の中にURLを入れればハイパーリンク化できます。
+詳細設計時のワイヤーフレーム、ER図の画像はdocsディレクトリに格納しています。（[こちらからアクセス](./docs)）
 
 ## 機能一覧
-- ユーザー登録、ログイン機能（メールアドレスとGoogleアカウント）
+- ユーザー登録、ログイン機能（メールアドレス）
 - 旅行作成・編集・削除
-- 支出登録・管理
+- 支出登録・編集・削除
 - 天気情報取得
-
+- 支出をグラフで確認
   
 ## テスト・修正の設計及び実施書
-
+[テスト・修正の設計及び実施書_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1tBSOBwkvNtA8l_AV1aVfVJdk9Wie7I7O2mbg1s6xcd4/edit?usp=sharing)
 
 ## アプリの改善案
+後ほど作成予定
