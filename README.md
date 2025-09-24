@@ -14,6 +14,9 @@ Next.js と Supabase を用いた「旅行支出管理・天気確認アプリ�
 https://travel-budget-weather-app.vercel.app
 
 未ログインの場合、ログイン画面へ遷移します。
+- テストアカウント
+  - メールアドレス：test@example.com
+  - パスワード：TestApp2025!  
 
 ## 使用技術
 - フロントエンド：Next.js 14.2.25
