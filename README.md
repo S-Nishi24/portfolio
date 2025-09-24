@@ -28,11 +28,11 @@ https://travel-budget-weather-app.vercel.app
 詳細設計時のワイヤーフレーム、ER図の画像はdocsディレクトリに格納しています。（[こちらからアクセス](./docs)）
 
 ## 機能一覧
-- ユーザー登録、ログイン機能（メールアドレス）
+- ユーザー登録、ログイン機能（メールアドレス認証）
 - 旅行作成・編集・削除
-- 支出登録・編集・削除
-- 天気情報取得
-- 支出をグラフで確認
+- 旅行ごとの支出登録・編集・削除
+- 天気情報の自動取得（OpenWeatherMap API；5日先までの予報）
+- 支出の内訳や予算に対する使用率をグラフで確認
   
 ## テスト・修正の設計及び実施書
 [テスト・修正の設計及び実施書_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1tBSOBwkvNtA8l_AV1aVfVJdk9Wie7I7O2mbg1s6xcd4/edit?usp=sharing)
