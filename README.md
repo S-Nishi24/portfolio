@@ -24,6 +24,9 @@ https://travel-budget-weather-app.vercel.app
 - データベース：Supabase
 - デプロイ：Vercel
 - バージョン管理：Git、GitHub
+- テスト・デバッグ：DevTools（Chrome）
+- CI/CD：GitHub Actions（ESLint）
+
 
 ## 設計ドキュメント
 [要件定義・基本設計・詳細設計の一覧_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1fbeRh_2ujOQCMXdwZ9QOzGdv37wXA8YMw5U5GZdgjXQ/edit?usp=sharing)
@@ -32,7 +35,7 @@ https://travel-budget-weather-app.vercel.app
 
 ## 機能一覧
 - ユーザー登録、ログイン機能（メールアドレス認証）
-- 旅行作成・編集・削除
+- 旅行新規作成・編集・削除
 - 旅行ごとの支出登録・編集・削除
 - 天気情報の自動取得（OpenWeatherMap API；5日先までの予報）
 - 支出の内訳や予算に対する使用率をグラフで確認
@@ -41,4 +44,12 @@ https://travel-budget-weather-app.vercel.app
 [テスト・修正の設計及び実施書_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1tBSOBwkvNtA8l_AV1aVfVJdk9Wie7I7O2mbg1s6xcd4/edit?usp=sharing)
 
 ## アプリの改善案
-後ほど作成予定
+[アプリの改善案_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/14NGym7WFSIpolSZW8icB0dS_Vlo-XBxVxEHNh4WMf2Q/edit?usp=sharing)
+
+## 備考
+[ESLintの実行結果_GitHub Actions](https://github.com/S-Nishi24/TravelApp/actions/runs/18041039992)
+
+- 活用した生成AIとその用途
+  - ChatGPT：要件定義、設計、各種リサーチ
+  - v0：アプリのモック作成
+  - GitHub Copilot Chat：ローカル環境でのコードの修正相談
