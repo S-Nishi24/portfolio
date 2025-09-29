@@ -43,9 +43,6 @@ https://travel-budget-weather-app.vercel.app
 ## テスト・修正の設計及び実施書
 [テスト・修正の設計及び実施書_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/1tBSOBwkvNtA8l_AV1aVfVJdk9Wie7I7O2mbg1s6xcd4/edit?usp=sharing)
 
-## アプリの改善案
-[アプリの改善案_Googleスプレッドシート](https://docs.google.com/spreadsheets/d/14NGym7WFSIpolSZW8icB0dS_Vlo-XBxVxEHNh4WMf2Q/edit?usp=sharing)
-
 ## 備考
 [ESLintの実行結果_GitHub Actions](https://github.com/S-Nishi24/TravelApp/actions/runs/18041039992)
 
